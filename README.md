@@ -5,4 +5,4 @@ Nesse bootcamp é trabalhado as seguintes stacks:
 
 :point_right: Git/GitHub
 :point_right: Desenvolvimento em Java
-:point_right: Spring Frameork
+:point_right: Spring Framework
