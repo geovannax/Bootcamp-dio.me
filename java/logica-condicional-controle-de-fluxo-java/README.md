@@ -1,6 +1,6 @@
-# Lógica Condicional e Controle de Fluxos em Java 
+# ➡️ Lógica Condicional e Controle de Fluxos em Java 
 ## Aqui contém os exercicios práticos do curso
-### Será trabalhado: 
+### 📍 Será trabalhado: 
 1. Operadores Relacionais
 2. Operadores Lógicos 
 3. Controle de Fluxos 
