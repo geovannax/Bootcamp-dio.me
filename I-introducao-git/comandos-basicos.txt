@@ -1,0 +1,27 @@
+----------------- COMANDOS BÁSICOS PARA MANIPULAÇÃO DO GIT -----------------
+
+SETAR USUÁRIOS 
+ - git config --global user.name "seu-usario"
+SETAR email 
+ - git config --global user.email "seu-email"
+LISTAR CONFIGS GLOBAIS
+ - git config --list
+INICIAR UM REPOSITORIO
+ - git init
+VERIFICAR STATUS DOS ARQUIVOS E DIRETORIOS
+ - git status
+ADCIONAR UM ARQUIVO EM ESPECIFICO 
+ - git add meu_arquivo.txt
+ADICIONAR UM DIRETÓRIO EM ESPECIFICO 
+ - git add meu_diretorio
+ADICIONAR TODOS OS ARQUIVOS E DIRETORIOS
+ - git add .
+COMITAR COM COMENTARIO
+ - git commit -m "minha mensagem de commit"
+ENVIAR O COMMIT PARA REPOSITORIO
+ - git push origin main
+SINCRONIZAR REPOSITORIO LOCAL COM O REMOTO
+ - git pull
+CLONAR REPOSITÓRIO REMOTO EXISTENTE, NA MAQUINA LOCAL
+- git clone git@github.com:XXX/XXXX.git 
+
