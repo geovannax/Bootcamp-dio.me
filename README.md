@@ -1,8 +1,13 @@
-# Bootcamp - DIO.me 🏆
-### Meus projetos realizados no Bootcamp Santander Code Girls, na plataforma da dio.me
-
-📍Nesse bootcamp é trabalhado as seguintes stacks: 
-
-- Git/GitHub
-- Desenvolvimento em Java
-- Spring Framework
+# 🏆 Bootcamps - Dio.me
+## Projetos realizados em Bootcamp's da plataforma Dio.me 
+### 📌 Bootcamp Santander Code Girls
+**Skills**
+- Git/GitHub 
+- Java 
+- Spring Frameork 
+### 📌Bootcamp Database Experience
+**Skills**
+- SQL 
+  - SGBD MySQL 
+- NoSQL 
+  - SGBD MongoDB
