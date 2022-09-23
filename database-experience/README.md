@@ -21,7 +21,7 @@
   - Updates,  consulta de informações, retornar os dados. 
 - **Compartilhamento:** Simultaneidade 
 
-*DD - Linguagem de definição de dados*
+*DDL - Linguagem de definição de dados*
 
 ### 📌 Modelo Relacional 
 
