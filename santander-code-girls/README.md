@@ -5,6 +5,6 @@
 
 ## Certificado de Conclusão 🏆
 
-<img height="500em" src="https://hermes.digitalinnovation.one/certificates/cover/AF14A84A.jpg"/>
+<img height="300em" src="https://hermes.digitalinnovation.one/certificates/cover/AF14A84A.jpg"/>
 <div/>
 
