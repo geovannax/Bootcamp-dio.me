@@ -75,6 +75,7 @@ Um banco de dados relacional é um tipo de banco de dados que armazena e fornece
 ### 📌 Compartilhamento de dados e processamento de transações multiusuários. 
 
 **Concurrency Control (Controle de concorrência):** Mecanismo utilizado para permitir acesso concorrente 
+
 *OLTP - Online Transaction Process | Transações de processos em tempo real*
 
 <table>
@@ -103,9 +104,99 @@ Um banco de dados relacional é um tipo de banco de dados que armazena e fornece
  Executa todo o processo ou cancela a operação 
  </div> 
 
+### 📌 Explorando abordagem de SGBDS - Atores, Workes nos bastidores, vantagens e quando não utilizar.
+
+- **Atores:** Perfis definidos para cenários mais complexos, como em Big Organization.
+  - Os atores podem ser Adms, Designers e o usuário final. 
+- **Atores Designers:** 
+  - Identifica os dados e requisitos 
+  - Representação e estrutura 
+  - Fase preliminar 
+- **Atores - Usuários Finais:**   
+  - Acesso categorizado 
+  - Pode ser usuário: Casual, ingênuo, sofisticado, Standalone 
+
+**Workes em Background**
+
+- **Background-** Fora do contexto de BD, mantém o SGBD disponível 
+
+**Vantagens de utilizar SGBDS:**
+- Promove controle de redundância 
+- Restrição de acesso 
+- Provém persistência 
+- Caching, Buffering, indexação 
+- Backup e Recovery 
+
+**Quando não usar um SGBD?**
+
+- Aplicações muito simples, bem definidas onde não haverá nenhuma mudança.
+- Aplicações em tempo real, que são terrivelmente prejudicadas pela sobrecarga (overhead) causada pelo uso de um SGBD;
+- Investimentos iniciais altos (como compra de hardware e software)
+
+### 📌 Modelagem de Dados 
+
+Possui foco na descrição e relacionamento dos elementos que compõem a representação 
 
 
+<table>
+ <tr> 
+ 
+   <td> 
+   
+   **Mini mundo**
+   
+   - Delimitação do contexto dos dados 
+   ➡️</td>
+  
+   <td>
+   
+   **Alto nivél**
+   
+   - Requisitos p/ a criação do modelo 
+   ➡️</td>
+   
+   <td>
+   
+   **Esquema**
+   
+   - Definição da estrtura relacional 
+   ➡️</td>
+   
+   <td>
+   
+   **SGBD**
+   
+   - Implementando SGBD - Criando DB</td>
+   
+ </tr>
+</table> 
 
+*UML - Linguagem de Modelagem Unificada* (Efeito cascata)
+
+## ALGUNS COMANDOS BÁSICOS SQL
+
+- **show database:** Mostrar todos os bancos existentes
+- **creat database:** Criar um banco
+- **use "banco":** Acessar base de dados
+- **show tables:** Exibir as tabelas da base de dados 
+- **drop database "banco":** Exclui o banco em questão 
+- **creat table "periodicos":** Criando tabelas 
+- **alter table:** Comando para realizar alterações na estrtura da tabela
+- **insert into:** Para inserir dados na tabela 
+- **Select * from:** Mostrar tabela completa 
+
+**Exemplificando:**
+
+```
+
+CREAT DATABASE example;
+CREAT TABLE periodicos(
+  id interger 
+  nome varchar (120),
+  issn interger
+);
+
+```
 
 
 
