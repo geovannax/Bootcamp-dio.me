@@ -175,12 +175,12 @@ Possui foco na descrição e relacionamento dos elementos que compõem a represe
 
 ## ALGUNS COMANDOS BÁSICOS SQL
 
-- **show database:** Mostrar todos os bancos existentes
-- **creat database:** Criar um banco
+- **show databases:** Mostrar todos os bancos existentes
+- **create database:** Criar um banco
 - **use "banco":** Acessar base de dados
 - **show tables:** Exibir as tabelas da base de dados 
 - **drop database "banco":** Exclui o banco em questão 
-- **creat table "periodicos":** Criando tabelas 
+- **create table "periodicos":** Criando tabelas 
 - **alter table:** Comando para realizar alterações na estrtura da tabela
 - **insert into:** Para inserir dados na tabela 
 - **Select * from:** Mostrar tabela completa 
@@ -189,11 +189,12 @@ Possui foco na descrição e relacionamento dos elementos que compõem a represe
 
 ```
 
-CREAT DATABASE example;
-CREAT TABLE periodicos(
-  id interger 
-  nome varchar (120),
-  issn interger
+CREATE DATABASE example;
+CREATE TABLE periodicos (
+    id integer,
+    nome varchar(120),
+    issn integer,
+    PRIMARY KEY (id) /Chave Primaria/
 );
 
 ```
