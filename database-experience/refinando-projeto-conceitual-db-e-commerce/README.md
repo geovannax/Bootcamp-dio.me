@@ -2,8 +2,6 @@
 
 # 💲Refinando um projeto conceitual de Banco de Dados E-commerce
 
-<img src="https://github.com/geovannax/Bootcamp-dio.me/blob/main/database-experience/refinando-projeto-conceitual-db-e-commerce/modelo-e-commerce.png?raw=true">
-
 ## 📝 Descrição do projeto
 </div>
 
