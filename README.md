@@ -4,7 +4,7 @@
 **Skills**
 - Git/GitHub 
 - Java 
-- Spring Frameork 
+- Spring Framework 
 ### 📌Bootcamp Database Experience
 **Skills**
 - SQL 
